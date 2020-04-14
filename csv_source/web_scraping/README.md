@@ -13,7 +13,7 @@ A brief on each CSV scraped will be described below and more technical details o
 
 ## Tournament CSV
 An example of URL to scrape will be shown below:
-<img src = 'https://github.com/songyingho/atptour_analysis/tree/master/csv_source/web_scraping/screenshots/tournaments_example.PNG'>
+<img src = 'https://github.com/songyingho/atptour_analysis/tree/master/csv_source/web_scraping/tournaments_example.PNG'>
 
 From the webpage, we obtained the following:
 1. Tournament Name
