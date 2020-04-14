@@ -29,10 +29,18 @@ __Files__:
 * [clustering](./clustering): Contains notebook for clustering models
 * [user_cmd_test](./cmd_testing/user_cmd_test.py): .py file contaning final models, compatible to use on cmd
 
-__Methodology__:
+__Methodology__: This project uses <code>Python 3</code>, documented with <code>Jupyter Notebook</code>. Data was collected from web-scraping HTML pages using <code>requests</code> and <code>lxml</code> libraries. We then used a combination of <code>Numpy</code>, <code>Pandas</code> and <code>Sklearn</code> for data cleaning, filtering and feature engineering. 
+
+Player Statistics were used for clustering models, namely <code>K-Means Clustering</code> and <code>Hierarchical Agglomerative Clustering</code>.<code>PCA</code> was used for dimensionality reduction, evaluation was conducted using both <code>Silhouette Score</code> and <code>Calinski-Harabasz Score</code>. 
+
+Moving on to the matches data, preliminary feature selection was conducted with a combination of correlation matrix, variance inflation factor (VIF) and Decision Tree. A nested 5-fold cross validation within a train-validation-test split of 64:16:20 was employed for all our models. Feature Reduction and Hyperparameter Tuning using <code>GridSearchCV</code> was applied to the following tested models,<code>Logistic Regression</code>, <code>Decision Tree</code>, <code>Random Forest</code>, <code>AdaBoost</code> and <code>XGBoost</code>. Final trained models were saved using <code>Joblib</code> and visualizations were made using <code>Seaborn</code>.
 
 __High Level Overview__:
 
 __Limitations__:
 
-__Future Work__:
+__Future Work__: 
+1. Train surface-specific models to better predict and analyze match outcomes on different surfaces (e.g. Clay, Hard, Grass)
+2. Create usable front end for the models created for user testing
+3. Create an automated machine learning pipeline from web-scraping to model selection
+4. Create new model for live odds tracking by inputting live match data points
