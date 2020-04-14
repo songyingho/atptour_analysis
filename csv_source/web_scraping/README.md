@@ -13,7 +13,7 @@ A brief on each CSV scraped will be described below and more technical details o
 
 ## Tournament CSV
 An example of URL to scrape will be shown below:
-<img src = 'https://github.com/songyingho/atptour_analysis/tree/master/csv_source/web_scraping/screenshots/tournaments_example.png'>
+<img src = 'https://github.com/songyingho/atptour_analysis/tree/master/csv_source/web_scraping/screenshots/tournaments_example.PNG'>
 
 From the webpage, we obtained the following:
 1. Tournament Name
@@ -29,7 +29,7 @@ The web-scraping function built was then used to iterate from year 1990 to 2019,
 
 ## Matches CSV
 An example of URL to scrape will be shown below:
-<img src = 'https://github.com/songyingho/atptour_analysis/tree/master/csv_source/web_scraping/screenshots/stats_example.png'>
+<img src = 'https://github.com/songyingho/atptour_analysis/tree/master/csv_source/web_scraping/screenshots/stats_example.PNG'>
 
 From the webpage, we obtained all the raw values available in the picture above. 
 The web-scraping function built was then used to iterate over every tournament in every year from 1990 to 2019.
@@ -37,7 +37,7 @@ The web-scraping function built was then used to iterate over every tournament i
 
 ## Players CSV
 An example of URL to scrape will be shown below:
-<img src = 'https://github.com/songyingho/atptour_analysis/tree/master/csv_source/web_scraping/screenshots/player_stats_example.png'>
+<img src = 'https://github.com/songyingho/atptour_analysis/tree/master/csv_source/web_scraping/screenshots/player_stats_example.PNG'>
 
 From the webpage, we obtained the following:
 1. Player ID
