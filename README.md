@@ -11,8 +11,10 @@ In this project, we accomplished the following:
 4. Data Cleaning & Feature Engineering for Classification
 5. Exploratory Data Analysis (EDA)
 6. Test & Optimization of Multiple Classification Models
-7. Final Model Selection with Feature Reduction
-8. Developed 2 models - Predictive Model & Analysis Model
+7. Final Model Selections with Feature Reduction
+8. Developed 2 models:
+  * Pre-match Prediction Model (XGBoost using 2 features with Validation AUC: 76.73 %)
+  * Match Analysis Model (AdaBoost using 6 features with Validation AUC: 92.60 %)
 9. Case Study on Wimbledon 2019 Final
 10. Developed .py script for Interactive User Testing
 
