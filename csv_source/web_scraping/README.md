@@ -9,7 +9,7 @@ __Final Scraped Documents:__
 2. [Match Stats CSV](https://github.com/songyingho/atptour_analysis/tree/master/csv_source/web_scraping/match_stats_1990-2019.csv)
 3. [Player Stats CSV](https://github.com/songyingho/atptour_analysis/tree/master/csv_source/web_scraping/player_stats_1990-2019.csv)
 
-A brief on each CSV scraped will be described below and more technical details on Web Scraping can be found in [Web Scraping Notebook](https://github.com/songyingho/atptour_analysis/tree/master/csv_source/web_scraping/web_scraping.ipynb)
+A brief on each CSV scraped will be described below and more technical details on Web Scraping can be found in [Web Scraping Notebook](https://github.com/songyingho/atptour_analysis/tree/master/csv_source/web_scraping/web_scraping.ipynb), and a basic tutorial to web-scraping used in this project can be found [here](https://medium.com/@songyingho/web-scraping-using-xpath-90cdd4e7f42a).
 
 ## Tournament CSV
 An example of URL to scrape will be shown below:
