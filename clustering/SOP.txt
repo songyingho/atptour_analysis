@@ -4,21 +4,19 @@ https://www.researchgate.net/post/Which_would_you_use_first_K-Means_Clustering_o
 
 The cluster analysis includes the following steps: 
 
-1st. selection of variables and decision
-on its standardization; 
+1st. Selection of Variables and Decision on its Standardization; 
 
-2nd. identification of outliers; 
+2nd. Identification of Outliers; 
 
-3rd. the method
+3rd. The Method
 Hierarchical for determining the number of clusters; 
 
-4th. search concordance
-the results obtained by different distance measures, since the choice of
-number of clusters is subjective; 
+4th. Search Concordance
+The results obtained by different distance measures, since the choice of number of clusters is subjective; 
 
-5th. validate the choices of the variables used in the analysis
+5th. Validate the choices of the variables used in the analysis
 clusters, using for this the MANOVA, ANOVA or discriminant analysis; 
 
-6th. replicate the number of clusters obtained by the hierarchical method, the non-hierarchical method
+6th. Replicate the number of clusters obtained by the hierarchical method, the non-hierarchical method
 
 K-Means Clustering to improve the final solution.
