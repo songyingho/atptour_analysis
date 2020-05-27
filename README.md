@@ -63,6 +63,7 @@ The models were also transformed into an executable python script, compatible to
 
 __Limitations__:
 1. Clustering only used players with more than 50 wins on tour in a specific time period, there would be data leakage and this did not account for many lower level players with less than 50 wins, resulting in many missing values when the labels are mapped onto the main dataset.
+2. Data used includes Best-Of-3 and Best-Of-5 Sets matches.
 
 __Future Work__: 
 1. Train surface-specific models to better predict and analyze match outcomes on different surfaces (e.g. Clay, Hard, Grass)
