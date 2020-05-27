@@ -15,7 +15,7 @@ In this project, we accomplished the following:
 8. Developed 2 models:
   * Pre-match Prediction Model (XGBoost using 2 features with Validation AUC: 76.73 %)
   * Match Analysis Model (AdaBoost using 6 features with Validation AUC: 92.60 %)
-9. Case Study on Wimbledon 2019 Final
+9. Case Study on Wimbledon 2019 Final [(Detailed Blog Post on Case Study)](https://medium.com/@songyingho/analyzing-wimbledon-2019-final-using-machine-learning-models-732210f0fec6)
 10. Developed .py script for Interactive User Testing
 
 __Data Source__: Data mostly web-scraped from [ATPTour](https://www.atptour.com), with supplement information from [UltimateTennisStatistics](https://www.ultimatetennisstatistics.com) and [FlashScore](https://www.flashscore.com/match/fyXBxdlb/#match-statistics) for case study.
