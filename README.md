@@ -18,6 +18,8 @@ In this project, we accomplished the following:
 9. Case Study on Wimbledon 2019 Final [(Detailed Blog Post on Case Study)](https://medium.com/@songyingho/analyzing-wimbledon-2019-final-using-machine-learning-models-732210f0fec6)
 10. Developed .py script for Interactive User Testing
 
+__Summary of Findings__:
+
 __Data Source__: Data mostly web-scraped from [ATPTour](https://www.atptour.com), with supplement information from [UltimateTennisStatistics](https://www.ultimatetennisstatistics.com) and [FlashScore](https://www.flashscore.com/match/fyXBxdlb/#match-statistics) for case study.
 
 __Files__: 
